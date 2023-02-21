@@ -1,0 +1,15 @@
+.grid {
+  display: table;
+  margin: 20px;
+  border-collapse: collapse;
+
+  .row {
+    display: table-row;
+  }
+  .row:first-child {
+    border-top: 3px solid black;
+  }
+  .row:nth-child(3), .row:nth-child(6), .row:nth-child(9) {
+    border-bottom: 3px solid black;
+  }
+}
